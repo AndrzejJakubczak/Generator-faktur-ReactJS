@@ -5,9 +5,7 @@
 
 
 ## Technologies Used
-- ReactJS
-
-
+- React.js
 
 
 ## Features
@@ -22,7 +20,8 @@
 
 
 ## Screenshots
-![Example screenshot](./img/fakturax.png)
-![Example screenshot](./img/fakturax2.png)
-![Example screenshot](./img/fakturax3.png)
+![Example screenshot](./src/img/fakturax.png)
+![Example screenshot](./src/img/fakturax2.png)
+![Example screenshot](./src/img/fakturax3.png)
+
 

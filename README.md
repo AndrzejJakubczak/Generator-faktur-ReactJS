@@ -22,5 +22,7 @@
 
 
 ## Screenshots
-![Example screenshot](./img/)
+![Example screenshot](./img/fakturax.png)
+![Example screenshot](./img/fakturax2.png)
+![Example screenshot](./img/fakturax3.png)
 

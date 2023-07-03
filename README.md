@@ -6,6 +6,7 @@
 
 ## Technologies Used
 - React.js
+- react-bootstrap
 
 
 ## Features
@@ -13,9 +14,9 @@
 - Users can issue an invoice
 - Users can add and edit personal data on the invoice
 - Users can choose currency, tax rate and discount
-- Automatic pre-filling of supplier details from the last invoice.
-- Users can download the invoice in PDF format.
-- All data is stored in the browser's memory (localStorage).
+- Automatic pre-filling of supplier details from the last invoice
+- Users can download the invoice in PDF format
+- All data is stored in the browser's memory (localStorage)
 
 
 

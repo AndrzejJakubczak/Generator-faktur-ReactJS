@@ -1,5 +1,5 @@
 # Fakturax
-> A web application for generating invoices, built using React, provides an efficient and user-friendly solution for businesses to create and manage invoices. With its intuitive interface, users can easily input customer information, add items and services, and calculate totals with automatic tax and discount calculations.
+The invoice generator web application, built using React, provides a user-friendly invoice creation solution. With an intuitive interface, users can easily enter customer information, add items and services, and calculate totals with automatic tax and discount calculations.
 
 #### Live demo [_here_](http://fakturax.pl/).
 

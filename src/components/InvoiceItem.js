@@ -7,10 +7,10 @@ import EditableField from './EditableField';
 
 class InvoiceItem extends React.Component {
   render() {
-    var onItemizedItemEdit = this.props.onItemizedItemEdit;
-    var currency = this.props.currency;
-    var rowDel = this.props.onRowDel;
-    var itemTable = this.props.items.map(function(item) {
+    const onItemizedItemEdit = this.props.onItemizedItemEdit;
+    const currency = this.props.currency;
+    const rowDel = this.props.onRowDel;
+    const itemTable = this.props.items.map(function(item) {
       return (
         <ItemRow onItemizedItemEdit={onItemizedItemEdit} item={item} onDelEvent={rowDel.bind(this)} key={item.id} currency={currency}/>
       )

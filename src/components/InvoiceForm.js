@@ -28,9 +28,9 @@ class InvoiceForm extends React.Component {
       total: '0.00',
       subTotal: '0.00',
       taxRate: '',
-      taxAmmount: '0.00',
+      taxAmount: '0.00',
       discountRate: '',
-      discountAmmount: '0.00'
+      discountAmount: '0.00'
     };
     this.state.items = [
       {
@@ -47,13 +47,13 @@ class InvoiceForm extends React.Component {
     this.handleCalculateTotal()
   }
   handleRowDel(items) {
-    var index = this.state.items.indexOf(items);
+    const index = this.state.items.indexOf(items);
     this.state.items.splice(index, 1);
     this.setState(this.state.items);
   };
   handleAddEvent(evt) {
-    var id = (+ new Date() + Math.floor(Math.random() * 999999)).toString(36);
-    var items = {
+    const id = (+ new Date() + Math.floor(Math.random() * 999999)).toString(36);
+    const items = {
       id: id,
       name: '',
       price: '0.00',
@@ -64,8 +64,8 @@ class InvoiceForm extends React.Component {
     this.setState(this.state.items);
   }
   handleCalculateTotal() {
-    var items = this.state.items;
-    var subTotal = 0;
+    const items = this.state.items;
+    let subTotal = 0;
 
     items.map(function(items) {
       subTotal = parseFloat(subTotal + (parseFloat(items.price).toFixed(2) * parseInt(items.quantity))).toFixed(2)
@@ -89,13 +89,13 @@ class InvoiceForm extends React.Component {
 
   };
   onItemizedItemEdit(evt) {
-    var item = {
+    const item = {
       id: evt.target.id,
       name: evt.target.name,
       value: evt.target.value
     };
-    var items = this.state.items.slice();
-    var newItems = items.map(function(items) {
+    const items = this.state.items.slice();
+    const newItems = items.map(function(items) {
       for (var key in items) {
         if (key == item.name && items.id == item.id) {
           items[key] = item.value;
